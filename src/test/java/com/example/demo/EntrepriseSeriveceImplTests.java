@@ -26,7 +26,7 @@ public class EntrepriseSeriveceImplTests {
 	@Order(1)
 	public void testRetrieveAllEntreprise() {
 		List<Entreprise> ListeEntreprise = entrepriseService.retrieveAllEntreprise();
-		Assertions.assertEquals(13, ListeEntreprise.size());;
+		Assertions.assertEquals(14, ListeEntreprise.size());;
 		
 	}
 	
@@ -57,7 +57,7 @@ public class EntrepriseSeriveceImplTests {
 	@Test
 	@Order(4)
 	public void testDeleteEntreprise(){
-		entrepriseService.deleteEntreprise(26);
+		entrepriseService.deleteEntreprise(28);
 		//Assertions.assertNull(entrepriseService.retrieveEntreprise(9));
 		
 	}
