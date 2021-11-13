@@ -57,7 +57,7 @@ public class EntrepriseSeriveceImplTests {
 	@Test
 	@Order(4)
 	public void testDeleteEntreprise(){
-		entrepriseService.deleteEntreprise(28);
+		entrepriseService.deleteEntreprise(29);
 		//Assertions.assertNull(entrepriseService.retrieveEntreprise(9));
 		
 	}
