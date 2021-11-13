@@ -26,7 +26,7 @@ public class EntrepriseSeriveceImplTests {
 	@Order(1)
 	public void testRetrieveAllEntreprise() {
 		List<Entreprise> ListeEntreprise = entrepriseService.retrieveAllEntreprise();
-		Assertions.assertEquals(6, ListeEntreprise.size());;
+		Assertions.assertEquals(9, ListeEntreprise.size());;
 		
 	}
 	
@@ -46,7 +46,7 @@ public class EntrepriseSeriveceImplTests {
 	@Test
 	@Order(3)
 	public void testUpdateEntreprise() throws ParseException{
-		Entreprise e = new Entreprise(10,"rafik","mastouri");
+		Entreprise e = new Entreprise(22,"rafik","mastouri");
 		Entreprise entrUpdated = entrepriseService.updateEntreprise(e);
 		Assertions.assertEquals(e.getName(),entrUpdated.getName());
 
