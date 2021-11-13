@@ -26,7 +26,7 @@ public class EntrepriseSeriveceImplTests {
 	@Order(1)
 	public void testRetrieveAllEntreprise() {
 		List<Entreprise> ListeEntreprise = entrepriseService.retrieveAllEntreprise();
-		Assertions.assertEquals(9, ListeEntreprise.size());;
+		Assertions.assertEquals(13, ListeEntreprise.size());;
 		
 	}
 	
